@@ -44,6 +44,31 @@
     color: #333;
     max-width: 400px;
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin-top: 1em;
+}
+
+.tag {
+  background: rgba(144, 144, 144, 0.1);
+  border: 1px solid rgba(144, 144, 144, 0.25);
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  font-size: 0.7em;
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.tag:hover {
+  background: rgba(144, 144, 144, 0.2);
+  border-color: rgba(144, 144, 144, 0.5);
+}
+
 		</style>
 		
 	<body class="is-preload">
@@ -55,6 +80,7 @@
 					<nav id="nav">
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
 						<a href="#project" class="icon solid fa-folder"><span>Projects</span></a>
+						<a href="#" class="icon brands fa-linkedin"><span>Linkedin</span></a>
 						<a href="https://x.com/SignorDarryl" class="icon brands fa-twitter"><span>Twitter</span></a>
 						<a href="https://github.com/darryldAnalyst" class="icon brands fa-github"><span>Github</span></a>
 						<a href="mailto:igbokwedarryl@gmail.com" class="icon fa-envelope"><span>Email</span></a>
@@ -68,6 +94,22 @@
 								<header>
 									<h1>Darlington Igbokwe</h1>
 									<p>Data Analyst</p>
+									<p>    </p>
+									<div style="height: 30px;"></div>
+									<section>
+										<h3>Skills:</h3>
+										<div class="skills">
+										  <span class="tag">Python</span>
+										  <span class="tag">R</span>
+										  <span class="tag">SQL</span>
+										  <span class="tag">MongoDB</span>
+										  <span class="tag">Excel</span>
+										  <span class="tag">Tableau</span>
+										  <span class="tag">PowerBI</span>
+										</div>
+									  </section>
+																											  
+
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>See my projects</span></span>
